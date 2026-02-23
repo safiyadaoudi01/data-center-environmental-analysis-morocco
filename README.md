@@ -1,6 +1,6 @@
 # Water & Energy Sustainability Assessment for Data Center Development in Morocco (2024)
 
-## 📌 Description
+## Description
 Ce projet évalue la capacité des régions marocaines à accueillir des Data Centers de manière durable, en tenant compte de la disponibilité en eau, de la capacité énergétique et du contexte économique régional.
 
 L’étude repose uniquement sur des données publiques :
@@ -19,7 +19,7 @@ Le résultat principal est un indice composite :
 - Identifier les régions favorables et les régions à risque
 
 
-## 🧩 Méthodologie (vue d’ensemble)
+## Méthodologie (vue d’ensemble)
 1. Préparation des données
    - Harmonisation des noms de régions
    - Sélection des régions communes
@@ -41,7 +41,7 @@ Le résultat principal est un indice composite :
    - Recommandations
 
 
-## 📊 Sources de données
+## Sources de données
 ### Annuaire Statistique du Maroc 2024 (HCP)
 Fichiers utilisés :
 - Division administrative
@@ -71,8 +71,23 @@ Fichiers utilisés :
 └── requirements.txt # Librairies Python nécessaires
 ```
 
+## Installation et configuration
 
-## 🧮 Indice DCSI (principe)
+Cloner le repository :
+
+```bash
+git clone https://github.com/safiyadaoudi01/data-center-environmental-analysis-morocco.git
+cd data-center-environmental-analysis-morocco
+```
+Installer les dépendances Python :
+
+```bash
+pip install -r requirements.txt
+```
+Préparer les données :
+( à remplir plus tard )
+
+## Indice DCSI (principe)
 Le Data Center Suitability Index combine :
 - un sous-indice hydrique,
 - un sous-indice énergétique,
@@ -88,7 +103,7 @@ Les indicateurs sont normalisés (Min-Max) puis agrégés avec des pondérations
 - Hypothèses sur un profil standard de consommation eau/énergie
 
 
-## 🚀 Résultats attendus
+## Résultats attendus
 - Classement des régions marocaines
 - Identification des zones favorables
 - Identification des zones à risque hydrique
