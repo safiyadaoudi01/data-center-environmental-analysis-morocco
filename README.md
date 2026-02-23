@@ -51,12 +51,14 @@ Fichiers utilisés :
 - Industrie
 - Comptes de la Nation
 
+Lien : https://www.hcp.ma/downloads/Annuaire-Statistique-du-Maroc-format-Excel_t22392.html
+
 ### Water Efficiency Dataset
 - Stress hydrique
 - Disponibilité en eau
 - Indicateurs d’efficacité hydrique
 
-
+Lien : https://huggingface.co/datasets/masterlion/WaterEfficientDatasetForAfricanCountries/tree/main
 
 ## Structure du projet
 
