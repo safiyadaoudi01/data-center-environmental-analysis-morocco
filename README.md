@@ -11,7 +11,7 @@ Le résultat principal est un indice composite :
 **Data Center Suitability Index (DCSI)**, utilisé pour comparer les régions.
 
 
-## 🎯 Objectifs
+## Objectifs
 - Analyser la pression hydrique par région
 - Évaluer la capacité énergétique régionale
 - Intégrer des indicateurs économiques et démographiques
@@ -58,7 +58,7 @@ Fichiers utilisés :
 
 
 
-## 🗂 Structure du projet
+## Structure du projet
 
 ```
 ├── data_raw/       # Données brutes
