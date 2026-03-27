@@ -63,14 +63,20 @@ Lien : https://huggingface.co/datasets/masterlion/WaterEfficientDatasetForAfrica
 ## Structure du projet
 
 ```
-├── data_raw/       # Données brutes
-├── data_processed/ # Données nettoyées et fusionnées
-├── notebooks/      # Analyses exploratoires et modélisation
-├── powerbi/        # Tableaux de bord Power BI
-├── scripts/        # Fonctions et scripts
-├── slides/         # Présentation du projet
-├── README.md
-└── requirements.txt # Librairies Python nécessaires
+├── data_raw/                     
+│   ├── hcp/                     # Données brutes de l’Annuaire Statistique du Maroc 2024 (HCP)
+│   └── water_efficiency_dataset/ # Données brutes du Water Efficiency Dataset
+│
+├── data_processed/              # Données extraites à partir des fichiers HCP
+├── data_final/                  # Données finales après transformation (prêtes pour analyse)
+│
+├── notebooks/                   # Notebooks d’analyse exploratoire (EDA)
+├── powerbi/                     # dashboards Power BI
+├── scripts/                     # Scripts Python pour extraction des données HCP
+├── slides/                      # Présentation du projet (soutenance)
+│
+├── README.md                    # Description du projet et méthodologie
+└── requirements.txt             # Liste des librairies Python nécessaires
 ```
 
 ## Installation et configuration
